@@ -3,6 +3,7 @@ import React from "react";
 const students = [
   { id: 1, name: "sakil" },
   { id: 2, name: "rasel" },
+  { id: 3, name: "monir" },
 ];
 
 const studentsMap = students.map((item) => {
