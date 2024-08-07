@@ -1,9 +1,11 @@
 import ConditionalRendering from "./ConditionalRendering";
+import Loops from "./components/Loops.jsx";
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRendering />
+      <Loops />
+      {/* <ConditionalRendering /> */}
     </div>
   );
 }
