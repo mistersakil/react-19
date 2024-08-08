@@ -1,7 +1,10 @@
 import React from "react";
 
 const Event = () => {
-  const handelClickEvent = (event) => console.log(event);
+  const handelClickEvent = (event) => {
+    console.log(event);
+    console.log(event.target);
+  };
   return (
     <>
       <h1>Event</h1>
