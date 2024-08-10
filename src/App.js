@@ -5,7 +5,7 @@ import State from "./components/State";
 function App() {
   return (
     <div className="App">
-      <State />
+      {/* <State /> */}
       {/* <Event /> */}
       {/* <Loops /> */}
       {/* <ConditionalRendering /> */}
