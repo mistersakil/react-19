@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 
+import { FcMultipleInputs } from "react-icons/fc";
+
 const LiftingStateUp = () => {
   let [inputValue, setInputValue] = useState("");
   return (
     <>
       <h1>LiftingStateUp</h1>
+
       <InputComponent
         inputValue={inputValue}
         setInputValue={setInputValue}
@@ -17,6 +20,9 @@ const LiftingStateUp = () => {
         type="email"
         label="email"
       />
+
+      <h3>Use of icons</h3>
+      <FcMultipleInputs />
     </>
   );
 };
