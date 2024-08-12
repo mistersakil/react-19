@@ -4,11 +4,13 @@
 // import State from "./components/State";
 // import LiftingStateUp from "./components/LiftingStateUp";
 // import Todo from "./components/Todo";
-import ShortCircuit from "./components/ShortCircuit";
+// import ShortCircuit from "./components/ShortCircuit";
+import Counter from "./components/Counter";
 function App() {
   return (
     <div className="App">
-      <ShortCircuit />
+      <Counter />
+      {/* <ShortCircuit /> */}
       {/* <Todo /> */}
       {/* <LiftingStateUp /> */}
       {/* <State /> */}
