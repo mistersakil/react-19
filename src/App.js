@@ -7,10 +7,12 @@
 // import ShortCircuit from "./components/ShortCircuit";
 // import Counter from "./components/Counter";
 import Form from "./components/Form";
+import UseEffect from "./components/UseEffect";
 function App() {
   return (
     <div className="App">
-      <Form />
+      <UseEffect />
+      {/* <Form /> */}
       {/* <Counter /> */}
       {/* <ShortCircuit /> */}
       {/* <Todo /> */}
