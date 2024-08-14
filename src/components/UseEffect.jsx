@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const UseEffect = () => {
   let [time, setTime] = useState(getTime());
   let [title, setTitle] = useState("Hello use effect");
+  let [count, setCount] = useState(0);
 
   function getTime() {
     return new Date().toLocaleTimeString();
@@ -18,6 +19,14 @@ const UseEffect = () => {
     document.title = title;
   }, [title]);
 
+  useEffect(() => {
+    let countInterval = setInterval(() => {
+      setCount((prev) => prev + 1);
+    }, 1000);
+
+    return () => clearInterval(countInterval);
+  }, []);
+
   return (
     <div>
       <h1>Digital clock: Use Effect Hook</h1> <hr />
@@ -31,6 +40,9 @@ const UseEffect = () => {
           name="changeMetaTitle"
           id="changeMetaTitle"
         />
+      </div>
+      <div>
+        <h3>Auto count: {count}</h3>
       </div>
     </div>
   );
