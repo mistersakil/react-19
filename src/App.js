@@ -8,11 +8,13 @@
 // import Counter from "./components/Counter";
 // import Form from "./components/Form";
 // import UseEffect from "./components/UseEffect";
-import FetchApi from "./components/FetchApi";
+// import FetchApi from "./components/FetchApi";
+import UseRefHook from "./components/UseRefHook";
 function App() {
   return (
     <div className="App">
-      <FetchApi />
+      <UseRefHook />
+      {/* <FetchApi /> */}
       {/* <UseEffect /> */}
       {/* <Form /> */}
       {/* <Counter /> */}
