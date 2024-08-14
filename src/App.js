@@ -6,12 +6,14 @@
 // import Todo from "./components/Todo";
 // import ShortCircuit from "./components/ShortCircuit";
 // import Counter from "./components/Counter";
-import Form from "./components/Form";
-import UseEffect from "./components/UseEffect";
+// import Form from "./components/Form";
+// import UseEffect from "./components/UseEffect";
+import FetchApi from "./components/FetchApi";
 function App() {
   return (
     <div className="App">
-      <UseEffect />
+      <FetchApi />
+      {/* <UseEffect /> */}
       {/* <Form /> */}
       {/* <Counter /> */}
       {/* <ShortCircuit /> */}
