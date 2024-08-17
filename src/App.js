@@ -9,11 +9,14 @@
 // import Form from "./components/Form";
 // import UseEffect from "./components/UseEffect";
 // import FetchApi from "./components/FetchApi";
-import UseRefHook from "./components/UseRefHook";
+// import UseRefHook from "./components/UseRefHook";
+
+import ContextApiComponent from "./components/ContextApiComponent";
 function App() {
   return (
     <div className="App">
-      <UseRefHook />
+      <ContextApiComponent />
+      {/* <UseRefHook /> */}
       {/* <FetchApi /> */}
       {/* <UseEffect /> */}
       {/* <Form /> */}
